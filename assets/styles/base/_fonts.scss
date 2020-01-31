@@ -1,0 +1,18 @@
+@include font-face("Raleway", "../fonts/Raleway-Regular", 400);
+@include font-face("Raleway", "../fonts/Raleway-Medium", 500);
+@include font-face("Raleway", "../fonts/Raleway-Bold", 700);
+@font-face {
+font-family: 'font534ec7d59fae6ac015a8491928d1f159';      
+    src:  url('https://nomail.com.ua/files/eot/534ec7d59fae6ac015a8491928d1f159.eot?#iefix') format('embedded-opentype'),
+          url('https://nomail.com.ua/files/woff/534ec7d59fae6ac015a8491928d1f159.woff') format('woff'),
+          url('https://nomail.com.ua/files/woff2/534ec7d59fae6ac015a8491928d1f159.woff2') format('woff2');
+}    
+ @font-face { font-family: 'Circe-Regular';  src: local('Circe-Regular'), url('https://nomail.com.ua/files/woff/534ec7d59fae6ac015a8491928d1f159.woff') format('woff'); }
+
+ @font-face {
+    font-family: 'font3287aad2222ea40811c09168947b68c3';
+        src:    url('https://nomail.com.ua/files/eot/3287aad2222ea40811c09168947b68c3.eot?#iefix') format('embedded-opentype'),
+                url('https://nomail.com.ua/files/woff/3287aad2222ea40811c09168947b68c3.woff') format('woff'),
+                url('https://nomail.com.ua/files/woff2/3287aad2222ea40811c09168947b68c3.woff2') format('woff2');
+    }
+    @font-face { font-family: 'Plumb-Regular';  src: local('Plumb-Regular'), url('https://nomail.com.ua/files/woff/3287aad2222ea40811c09168947b68c3.woff') format('woff'); }

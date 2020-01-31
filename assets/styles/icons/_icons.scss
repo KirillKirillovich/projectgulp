@@ -1,0 +1,36 @@
+@font-face {
+	font-family: "icons";
+	src: url('../fonts/icons.eot?1566660745672');
+	src: url('../fonts/icons.eot?1566660745672#iefix') format('eot'),
+		url('../fonts/icons.woff2?1566660745672') format('woff2'),
+		url('../fonts/icons.woff?1566660745672') format('woff'),
+		url('../fonts/icons.ttf?1566660745672') format('truetype'),
+		url('../fonts/icons.svg?1566660745672#icons') format('svg');
+}
+/* stylelint-disable */
+.icon:before {
+	font-family: "icons";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	/* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+	text-decoration: none;
+	text-transform: none;
+}
+
+
+.icon-community:before {
+	content: "\E001";
+}
+
+.icon-dashboard:before {
+	content: "\E002";
+}
+
+.icon-magnifying-glass:before {
+	content: "\E003";
+}
+
+/* stylelint-enable */

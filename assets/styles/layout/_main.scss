@@ -1,0 +1,693 @@
+main{
+   background-color: $mainy;
+   ul{
+      padding-left:0px;
+   }
+   @media (min-width: 1024px) and (max-width: 1099px){
+      .layout{
+         width: 1023px;
+      }
+      @media (min-width: 896px) and (max-width: 1023px){
+         .layout{
+            width: 896px;
+         }
+      }
+      @media (min-width: 768px) and (max-width: 895px){
+         .layout{
+            width: 768px;
+         }
+      }
+      @media (min-width: 667px) and (max-width: 767px){
+         .layout{
+            width: 666px;
+         }
+      }
+      @media (min-width: 414px) and (max-width: 666px){
+         .layout{
+            width: 413px;
+         }
+      }
+      @media (min-width: 320px) and (max-width: 413px){
+         .layout{
+            width: 319px;
+         }
+      }
+   }
+ .sectionNav{
+    height: 426px;
+    width: 100%;
+    background-color: $mainblue;
+    padding-top: 75px;
+    display:block;
+    @media (min-width: 414px) and (max-width: 666px){
+       height: 100%;
+       padding-top: 20px;
+    }
+    @media (min-width: 320px) and (max-width: 413px){
+       height: 100%;
+       padding-top:20px;
+    }
+    ul{
+      margin: 0px;
+      color: white;
+      font-size: 30px;
+      @media (min-width: 414px) and (max-width: 666px){
+         margin-bottom: 20px;
+      }
+      @media (min-width: 320px) and (max-width: 413px){
+         margin-bottom:20px;
+      }
+      :first-child{
+         margin-bottom: 30px;
+      }
+
+      
+      li{
+         font-family: "Plumb-Regular";
+         margin:0;
+         @media (min-width: 896px) and (max-width: 1023px){
+            font-size: 20px;
+         }
+         @media (min-width: 768px) and (max-width: 895px){
+            font-size: 20px;
+         }
+         @media (min-width: 667px) and (max-width: 767px){
+            font-size: 20px;
+         }
+         @media (min-width: 414px) and (max-width: 666px){
+            font-size: 20px;
+         }
+         @media (min-width: 320px) and (max-width: 413px){
+            font-size: 20px;
+         }
+         a{
+            color: white;
+            font-size: 16px;
+            text-decoration: none;
+            font-family: "Circe-Regular";
+            @media (min-width: 1024px) and (max-width: 1099px){
+               font-size: 14px;
+            }
+            @media (min-width: 896px) and (max-width: 1023px){
+               font-size: 14px;
+            }
+            @media (min-width: 768px) and (max-width: 895px){
+               font-size: 14px;
+            }
+            @media (min-width: 667px) and (max-width: 767px){
+               font-size: 12px;
+            }
+            @media (min-width: 414px) and (max-width: 666px){
+               font-size: 12px;
+            }
+            @media (min-width: 320px) and (max-width: 413px){
+               font-size: 12px;
+            }
+            }
+         a:hover{
+            text-decoration: underline;
+            color: $mainy; 
+         }
+      }
+    }
+   .sectonNav__wrapper{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 75px;
+      @media (min-width: 1100px) and (max-width: 1919px){
+         justify-content: space-around;
+      }
+      @media (min-width: 1024px) and (max-width: 1099px){
+         justify-content: space-around;
+      }
+      @media (min-width: 896px) and (max-width: 1023px){
+         justify-content: space-around;
+      }
+      @media (min-width: 768px) and (max-width: 895px){
+         justify-content: space-around;
+      }
+      @media (min-width: 667px) and (max-width: 767px){
+         justify-content: space-around;
+      }
+      @media (min-width: 414px) and (max-width: 666px){
+         justify-content: space-around;
+         flex-wrap:wrap;
+      }
+      @media (min-width: 320px) and (max-width: 413px){
+         justify-content: space-around;
+         flex-wrap: wrap;
+      }
+   }
+}  
+      .sectionEvents{
+         display: block;
+         width: 100%;
+         background-color: $mainy;
+         margin-bottom: 0;
+      }
+    .sectionEvents__heading{
+       display: inline-block;
+       margin-top: 75px;
+       color: #2E373B;
+       width: 454px;
+       font-family: "Plumb-Regular";
+       @media (min-width: 1100px) and (max-width: 1919px){
+          margin-left: 10px;
+       }
+       @media (min-width: 1024px) and (max-width: 1099px){
+          margin-left: 10px;
+       }
+       @media (min-width: 896px) and (max-width: 1023px){
+          margin-left: 10px;
+          width: 400px;
+       }
+       @media (min-width: 768px) and (max-width: 895px){
+          margin-left: 10px;
+          width: 330px;
+       }
+       @media (min-width: 667px) and (max-width: 767px){
+          width: 315px;
+          margin-left: 10px;
+       }
+       @media (min-width: 414px) and (max-width: 666px){
+          width: 200px;
+          margin-left: 10px;
+          text-align: center;
+          vertical-align: top;
+          margin-top: 0;
+       }
+       @media (min-width: 320px) and (max-width: 413px){
+         width: 150px;
+         margin-left: 10px;
+         text-align: center;
+         vertical-align: top;
+         margin-top: 0;
+       }
+
+       h2{
+          font-size: 30px;
+          @media (min-width: 1024px) and (max-width: 1099px){
+           font-size: 24px;
+         }
+         @media (min-width: 896px) and (max-width: 1023px){
+            font-size: 20px;
+         }
+         @media (min-width: 768px) and (max-width: 895px){
+            font-size: 20px;
+         }
+         @media (min-width: 667px) and (max-width: 767px){
+            font-size: 20px;
+         }
+         @media (min-width: 414px) and (max-width: 666px){
+            font-size: 18px;
+         }
+         @media (min-width: 320px) and (max-width: 413px){
+            font-size: 16px;
+         }
+       }
+    }
+ .sectionEvents__allevents{
+   display: inline-block;
+   margin-top: 84px;
+   margin-left: 430px;
+   font-size: 21px;
+   @media (min-width: 1100px) and (max-width: 1919px){
+      margin-left: 400px;
+   }
+   @media (min-width: 1024px) and (max-width: 1099px){
+      margin-left:320px;
+   }
+   @media (min-width: 896px) and (max-width: 1023px){
+      margin-left: 200px;
+   }
+   @media (min-width: 768px) and (max-width: 895px){
+      margin-left: 200px;
+   }
+   @media (min-width: 667px) and (max-width: 767px){
+      margin-left: 160px;
+   }
+   @media (min-width: 414px) and (max-width: 666px){
+      margin-left: 30px;
+      margin-top: 0;
+   }
+   @media (min-width: 320px) and (max-width: 413px){
+      margin-left: 15px;
+      margin-top: 0;
+   }
+
+   a{
+      font-size: 21px;
+      color: #2E373B;
+      font-family: "Plumb-Regular";
+      @media (min-width: 667px) and (max-width: 767px){
+         font-size: 16px;
+      }
+      @media (min-width: 414px) and (max-width: 666px){
+         font-size: 14px;
+      }
+      @media (min-width: 320px) and (max-width: 413px){
+         font-size: 14px;
+      }
+   }
+
+   img{
+      margin-left: 15px;
+      width: 25px;
+      @media (min-width: 320px) and (max-width: 413px){
+         width: 15px;
+         margin-left: 5px;
+      }
+   }
+ }
+ .sectionEvents__Events{
+    display: block;
+    margin-top: 55px;
+    margin-bottom: 79px;
+
+    .sectionEvents__Events-wrapper{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+       font-family: "Circe-Regular";
+       @media (min-width: 1100px) and (max-width: 1919px){
+          justify-content: space-around;
+       }
+       @media (min-width: 1024px) and (max-width: 1099px){
+          justify-content: space-around;
+       }
+       @media (min-width: 896px) and (max-width: 1023px){
+          justify-content: space-around;
+       }
+       @media (min-width: 768px) and (max-width: 895px){
+          justify-content: space-around;
+          text-align: center;
+       }
+       @media (min-width: 667px) and (max-width: 767px){
+          justify-content: space-around;
+          text-align: center;
+       }
+       @media (min-width: 414px) and (max-width: 666px){
+          justify-content: space-around;
+          text-align: center;
+       }
+       @media (min-width: 320px) and (max-width: 413px){
+          justify-content: space-around;
+          text-align: center;
+       }
+       li{
+         @media (min-width: 320px) and (max-width: 413px){
+            width: 150px;
+         }
+       }
+    }
+    .sectionEvents__wrapper{
+       position: relative;
+       
+    }
+    .sectionEvents__Events-img{
+       margin-bottom: 20px;
+       @media (min-width: 768px) and (max-width: 895px){
+          width: 200px;
+       }
+       @media (min-width: 667px) and (max-width: 767px){
+          width: 200px;
+       }
+       @media (min-width: 414px) and (max-width: 666px){
+          width: 200px;
+       }
+       @media (min-width: 320px) and (max-width: 413px){
+          width: 150px;
+       }
+    }
+
+    .sectionEvents__Events-date{
+       font-size: 14px;
+       color: #2E373B;
+       margin-bottom: 10px;
+       @media (min-width: 768px) and (max-width: 895px){
+          width: 200px;
+       }
+       @media (min-width: 414px) and (max-width: 666px){
+          width: 200px;
+       }
+       @media (min-width: 320px) and (max-width: 413px){
+          width: 150px;
+          font-size: 12px;
+       }
+    }
+    .sectionEvents__Events-name{
+       font-size: 21px;
+       color: $mainr;
+       font-family: "Plumb-Regular";
+       margin-bottom: 10px;
+       @media (min-width: 768px) and (max-width: 895px){
+          width: 200px;
+       }
+       @media (min-width: 414px) and (max-width: 666px){
+          width: 200px;
+          font-size: 16px;
+       }
+       @media (min-width: 320px) and (max-width: 413px){
+          width: 150px;
+          font-size: 16px;
+       }
+    }
+    .sectionEvents__Events-description{
+       font-size: 16px;
+       color: #2E373B;
+       margin-bottom: 40px;
+       @media (min-width: 768px) and (max-width: 895px){
+          width: 200px;
+       }
+       @media (min-width: 414px) and (max-width: 666px){
+          width: 200px;
+          font-size: 14px;
+       }
+       @media (min-width: 320px) and (max-width: 413px){
+          width: 150px;
+          font-size: 12px;
+       }
+    }
+ }
+ 
+ .sectionNews{
+    display: block;;
+    width: 100%;
+    height: 649px;
+    background-color: #FAF3E3;
+    @media (min-width: 667px) and (max-width: 767px){
+       height: 500px;
+    }
+    @media (min-width: 414px) and (max-width: 666px){
+       height: 700px;
+    }
+    @media (min-width: 320px) and (max-width: 413px){
+       height: 800px;
+    }
+
+    .sectionNews__wrapper{
+       display: flex;
+       justify-content: space-between;
+       height: 100%;
+       @media (min-width: 1100px) and (max-width: 1919px){
+          justify-content: space-around;
+       }
+       @media (min-width: 1024px) and (max-width: 1099px){
+          justify-content: space-around;
+       }
+       @media (min-width: 896px) and (max-width: 1023px){
+          justify-content: space-around;
+       }
+       @media (min-width: 768px) and (max-width: 895px){
+          justify-content: space-around;
+       }
+       @media (min-width: 667px) and (max-width: 767px){
+          justify-content: space-around;
+          display: block;
+       }
+       @media (min-width: 414px) and (max-width: 666px){
+          justify-content: space-around;
+          display: block;
+       }
+       @media (min-width: 320px) and (max-width: 413px){
+          justify-content: space-around;
+          display: block;
+       }
+    }
+
+    .sectionNews__photo{
+       display: inline-block;
+       margin-top: 75px;
+       @media (min-width: 1024px) and (max-width: 1099px){
+          margin-top: 150px;
+       }
+       @media (min-width: 896px) and (max-width: 1023px){
+          margin-top: 150px;
+       }
+       @media (min-width: 768px) and (max-width: 895px){
+          margin-top: 150px;
+       }
+       @media (min-width: 667px) and (max-width: 767px){
+          margin-top: 15px;
+          display: flex;
+          justify-content: space-around;
+       }
+       @media (min-width: 414px) and (max-width: 666px){
+          margin-top: 15px;
+          display: flex;
+          justify-content: space-around;
+          flex-wrap:wrap;
+       }
+       @media (min-width: 320px) and (max-width: 413px){
+          margin-top: 15px;
+          display: flex;
+          justify-content: space-around;
+          flex-wrap:wrap;
+       }
+       img:first-child{
+          margin-top: 0;
+          @media (min-width: 667px) and (max-width: 767px){
+             margin-top: 30px;
+          }
+          @media (min-width: 414px) and (max-width: 666px){
+             margin-top: 30px;
+          }
+          @media (min-width: 320px) and (max-width: 413px){
+             margin-top: 30px;
+          }
+         }
+
+       img{
+          display: block;
+          margin-top: 59px;
+          @media (min-width: 1024px) and (max-width: 1099px){
+             width: 300px;
+          }
+          @media (min-width: 896px) and (max-width: 1023px){
+             width: 300px;
+          }
+          @media (min-width: 768px) and (max-width: 895px){
+             width: 250px;
+          }
+          @media (min-width: 667px) and (max-width: 767px){
+             display: block;
+             width: 300px;
+             margin-top: 30px;
+          }
+          @media (min-width: 414px) and (max-width: 666px){
+             display: block;
+             width: 300px;
+             margin-top: 30px;
+          }
+          @media (min-width: 320px) and (max-width: 413px){
+             display: block;
+             width: 300px;
+             margin-top:30px;
+          }
+       }
+    }
+    .sectionNews__news{
+       display:block;
+    }
+    .sectionNews__news-title{
+       margin-top: 81px;
+       display:block;
+       color: $mainb;
+       font-family: "Plumb-Regular";
+       @media (min-width: 667px) and (max-width: 767px){
+          text-align: center;
+       }
+       @media (min-width: 414px) and (max-width: 666px){
+          text-align: center;
+          margin-top: 50px;
+          display: flex;
+          justify-content: space-around;
+       }
+       @media (min-width: 320px) and (max-width: 413px){
+          text-align: center;
+          margin-top: 50px;
+          display: flex;
+          justify-content: space-around;
+       }
+
+       .sectionNews__news-title-head{
+          margin-top: 0px;
+          display: inline-block;
+          font-size: 30px;
+          margin-bottom: 20px;
+          @media (min-width: 896px) and (max-width: 1023px){
+             font-size: 24px;
+          }
+          @media (min-width: 768px) and (max-width: 895px){
+             font-size: 20px;
+          }
+          @media (min-width: 667px) and (max-width: 767px){
+             font-size: 20px;
+          }
+          @media (min-width: 414px) and (max-width: 666px){
+             font-size: 20px;
+          }
+          @media (min-width: 320px) and (max-width: 413px){
+             font-size: 20px;
+          }
+       }
+       .sectionNews__news-title-allnews{
+          display: inline-block;
+          margin-left: 272px;
+          @media (min-width: 414px) and (max-width: 666px){
+             margin-left: 0;
+          }
+          @media (min-width: 320px) and (max-width: 413px){
+             margin-left: 0;
+          }
+          a{
+             font-size: 21px;
+             color: $mainb;
+             margin-right: 15px;
+             @media (min-width: 896px) and (max-width: 1023px){
+                font-size: 18px;
+             }
+             @media (min-width: 768px) and (max-width: 895px){
+                font-size: 16px;
+             }
+             @media (min-width: 667px) and (max-width: 767px){
+                font-size: 16px;
+             }
+             @media (min-width: 414px) and (max-width: 666px){
+                font-size: 16px;
+             }
+             @media (min-width: 320px) and (max-width: 413px){
+                font-size: 14px;
+                vertical-align: sub;
+             }
+          }
+         img{
+            @media (min-width: 320px) and (max-width: 413px){
+               vertical-align: sub;
+               width: 20px;
+            }
+         }
+       }
+    }
+    .sectionNews__news-content{
+       width: 516px;
+       @media (min-width: 768px) and (max-width: 895px){
+          width: 450px;
+          margin: auto;
+       }
+       @media (min-width: 667px) and (max-width: 767px){
+          width: 100%;
+          margin: auto;
+          text-align: center;
+       }
+       @media (min-width: 414px) and (max-width: 666px){
+          width: 100%;
+          margin: auto;
+          text-align: center;
+       }
+       @media (min-width: 320px) and (max-width: 413px){
+          width: 100%;
+          margin: auto;
+          text-align: center;
+       }
+       ul{
+         @media (min-width: 667px) and (max-width: 767px){
+            display: flex;
+            justify-content: space-around;
+            width: 660px;
+         }
+         @media (min-width: 414px) and (max-width: 666px){
+            display: flex;
+            justify-content: space-around;
+            width: 410px;
+         }
+         @media (min-width: 320px) and (max-width: 413px){
+            display: flex;
+            width: 100%;
+            flex-wrap:wrap;
+            justify-content: center;
+         }
+       }
+       li{
+          height: 120px;
+          margin-bottom: 30px;
+          @media (min-width: 320px) and (max-width: 413px){
+             margin-bottom: 0;
+          }
+       }
+       .sectionNews__news-content-img{
+          display: inline-block;
+          margin:0;
+          img{
+            @media (min-width: 768px) and (max-width: 895px){
+             width: 120px;
+          }
+          @media (min-width: 667px) and (max-width: 767px){
+             width: 120px;
+          }
+          @media (min-width: 414px) and (max-width: 666px){
+             width: 120px;
+          }
+          @media (min-width: 320px) and (max-width: 413px){
+             width:100px;
+          }
+         }
+       }
+
+       .sectionNews__news-content-text{
+          color: $mainr;
+          font-size: 16px;
+          float: right;
+          font-family: "Circe-Regular";
+          @media (min-width: 896px) and (max-width: 1023px){
+             float: right;
+             margin-right: 50px;
+          }
+          @media (min-width: 768px) and (max-width: 895px){
+             float: right;
+             margin-right: 50px;
+          }
+          @media (min-width: 667px) and (max-width: 767px){
+             float: right;
+             margin-right: 0;
+          }
+          @media (min-width: 414px) and (max-width: 666px){
+             float: right;
+             margin-right: 0;
+          }
+          @media (min-width: 320px) and (max-width: 413px){
+             float: right;
+             margin-right: 0;
+          }
+          p{
+             margin-bottom: 14px;
+             @media (min-width: 320px) and (max-width: 413px){
+                margin-left: 5px;
+             }
+          }
+
+          p:nth-child(2){
+            color:$mainb;
+            font-size: 21px;
+            margin-bottom: 0;
+            font-family: "Plumb-Regular";
+            @media (min-width: 896px) and (max-width: 1023px){
+               font-size: 16px;
+            }
+            @media (min-width: 768px) and (max-width: 895px){
+               font-size: 16px;
+            }
+            @media (min-width: 667px) and (max-width: 767px){
+               font-size: 14px;
+            }
+            @media (min-width: 414px) and (max-width: 666px){
+               font-size: 14px;
+            }
+            @media (min-width: 320px) and (max-width: 413px){
+               font-size: 14px;
+            }
+          }
+       }
+    }
+ }
+}

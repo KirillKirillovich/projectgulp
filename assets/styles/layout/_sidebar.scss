@@ -1,0 +1,17 @@
+.sidebar {
+  flex: 0 0 350px;
+  height: 100vh;
+  background: transparent linear-gradient(180deg, #489E98 0%, #276763 22%, #012724 100%) 0 0 no-repeat padding-box;
+}
+
+.logo {
+  display: block;
+  width: fit-content;
+  margin: 30px auto 40px;
+  color: #fff;
+  font-size: 40px;
+  line-height: 47px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}

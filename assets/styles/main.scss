@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin:0;
+    }
+@import 'abstracts/variables';
+@import 'abstracts/mixin';
+
+@import "base/base";
+@import "base/fonts";
+
+// @import "icons/icons";
+// @import 'components/buttons';
+
+// @import "layout/sidebar";
+// @import "layout/content";
+@import "layout/header";
+@import "layout/footer";
+@import "layout/main";
+// @import "layout/forms";
+
+// @import "pages/search";
