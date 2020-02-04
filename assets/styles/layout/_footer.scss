@@ -91,17 +91,17 @@ footer {
         color: white;
         font-size: 21px;
         flex-wrap:wrap;
-        font-family: "Circe-Regular";
+        font-family: "Montserrat";
         @media (min-width: 1100px) and (max-width: 1919px){
-          font-size: 16px;
+          font-size: 18px;
           width: 800px;
         }
         @media (min-width: 1024px) and (max-width: 1099px){
-          font-size:16px;
+          font-size:18px;
           width: 720px;
         }
         @media (min-width: 896px) and (max-width: 1023px){
-          font-size: 16px;
+          font-size: 18px;
           width: 100%;
         }
         @media (min-width: 768px) and (max-width: 895px){
@@ -143,9 +143,12 @@ footer {
         }
       }
       li{
-         margin-right:90px;
+         margin-right:80px;
+         @media (min-width: 1024px) and (max-width: 1099px){
+          margin-right: 70px;
+        }
          @media (min-width: 896px) and (max-width: 1023px){
-           margin-right: 50px;
+           margin-right: 40px;
          }
          @media (min-width: 768px) and (max-width: 895px){
            margin-top: 20px;
@@ -160,11 +163,11 @@ footer {
            margin:20px 0 0 0;
          }
          :first-child{
-          font-family: "Plumb-Regular";
+          font-family: "Montserrat";
          }
          a{
             color: white;
-            font-size: 16px;
+            font-size: 14px;
             text-decoration: none;
             @media (min-width: 1100px) and (max-width: 1919px){
               font-size: 14px;
@@ -231,7 +234,7 @@ footer {
         font-size: 14px;
         flex-wrap:wrap;
         width: 260px;
-        font-family: "Circe-Regular";
+        font-family: "Montserrat";
         @media (min-width: 768px) and (max-width: 895px){
           width: 100%;
           justify-content: space-around;
@@ -267,7 +270,7 @@ footer {
         }
         p:first-child{
           font-size: 21px;
-          font-family: "Plumb-Regular";
+          font-family: "Montserrat";
           @media (min-width: 1100px) and (max-width: 1919px){
             font-size: 16px;
           }
@@ -348,7 +351,7 @@ footer {
         border: none;
         margin-top:25px;
         vertical-align: baseline;
-        font-family: "Circe-Regular";
+        font-family: "Montserrat";
         @media (min-width: 896px) and (max-width: 1023px){
           width: 100%;
         }

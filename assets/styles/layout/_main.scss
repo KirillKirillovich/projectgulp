@@ -39,9 +39,20 @@ main{
     background-color: $mainblue;
     padding-top: 75px;
     display:block;
+    @media (min-width: 768px) and (max-width: 895px){
+      height: 100%;
+      padding-top: 20px;
+      padding-bottom: 20px;
+   }
+   @media (min-width: 667px) and (max-width: 767px){
+      height: 100%;
+      padding-bottom: 20px;
+      padding-top: 20px;
+   }
     @media (min-width: 414px) and (max-width: 666px){
        height: 100%;
        padding-top: 20px;
+       padding-bottom: 20px;
     }
     @media (min-width: 320px) and (max-width: 413px){
        height: 100%;
@@ -63,7 +74,7 @@ main{
 
       
       li{
-         font-family: "Plumb-Regular";
+         font-family: "Montserrat";
          margin:0;
          @media (min-width: 896px) and (max-width: 1023px){
             font-size: 20px;
@@ -84,7 +95,7 @@ main{
             color: white;
             font-size: 16px;
             text-decoration: none;
-            font-family: "Circe-Regular";
+            font-family: "Montserrat";
             @media (min-width: 1024px) and (max-width: 1099px){
                font-size: 14px;
             }
@@ -125,17 +136,28 @@ main{
       }
       @media (min-width: 768px) and (max-width: 895px){
          justify-content: space-around;
+         margin-bottom: 0;
       }
       @media (min-width: 667px) and (max-width: 767px){
          justify-content: space-around;
+         margin-bottom: 0;
       }
       @media (min-width: 414px) and (max-width: 666px){
          justify-content: space-around;
          flex-wrap:wrap;
+         margin-bottom: 0;
       }
       @media (min-width: 320px) and (max-width: 413px){
          justify-content: space-around;
          flex-wrap: wrap;
+      }
+      a{
+         @media (min-width: 768px) and (max-width: 895px){
+            font-size: 12px;
+         }
+         @media (min-width: 667px) and (max-width: 767px){
+            font-size: 10px;
+         }
       }
    }
 }  
@@ -149,8 +171,7 @@ main{
        display: inline-block;
        margin-top: 75px;
        color: #2E373B;
-       width: 454px;
-       font-family: "Plumb-Regular";
+       font-family: "Montserrat";
        @media (min-width: 1100px) and (max-width: 1919px){
           margin-left: 10px;
        }
@@ -163,11 +184,10 @@ main{
        }
        @media (min-width: 768px) and (max-width: 895px){
           margin-left: 10px;
-          width: 330px;
        }
        @media (min-width: 667px) and (max-width: 767px){
-          width: 315px;
           margin-left: 10px;
+          margin-top: 30px;
        }
        @media (min-width: 414px) and (max-width: 666px){
           width: 200px;
@@ -209,10 +229,10 @@ main{
  .sectionEvents__allevents{
    display: inline-block;
    margin-top: 84px;
-   margin-left: 430px;
+   margin-left: 300px;
    font-size: 21px;
    @media (min-width: 1100px) and (max-width: 1919px){
-      margin-left: 400px;
+      margin-left: 300px;
    }
    @media (min-width: 1024px) and (max-width: 1099px){
       margin-left:320px;
@@ -221,10 +241,11 @@ main{
       margin-left: 200px;
    }
    @media (min-width: 768px) and (max-width: 895px){
-      margin-left: 200px;
+      margin-left: 140px;
    }
    @media (min-width: 667px) and (max-width: 767px){
-      margin-left: 160px;
+      margin-left: 100px;
+      margin-top: 0;
    }
    @media (min-width: 414px) and (max-width: 666px){
       margin-left: 30px;
@@ -238,7 +259,8 @@ main{
    a{
       font-size: 21px;
       color: #2E373B;
-      font-family: "Plumb-Regular";
+      font-family: "Montserrat";
+      text-decoration: none;
       @media (min-width: 667px) and (max-width: 767px){
          font-size: 16px;
       }
@@ -268,7 +290,7 @@ main{
        display: flex;
        flex-wrap: wrap;
        justify-content: space-between;
-       font-family: "Circe-Regular";
+       font-family: "Montserrat";
        @media (min-width: 1100px) and (max-width: 1919px){
           justify-content: space-around;
        }
@@ -337,12 +359,18 @@ main{
     }
     .sectionEvents__Events-name{
        font-size: 21px;
-       color: $mainr;
-       font-family: "Plumb-Regular";
+       font-family: "Montserrat";
        margin-bottom: 10px;
+       a{
+          color:$mainr;
+          text-decoration: none;
+       }
        @media (min-width: 768px) and (max-width: 895px){
           width: 200px;
-       }
+         }
+       @media (min-width: 667px) and (max-width: 767px){
+            font-size: 16px;
+         }
        @media (min-width: 414px) and (max-width: 666px){
           width: 200px;
           font-size: 16px;
@@ -353,7 +381,7 @@ main{
        }
     }
     .sectionEvents__Events-description{
-       font-size: 16px;
+       font-size: 14px;
        color: #2E373B;
        margin-bottom: 40px;
        @media (min-width: 768px) and (max-width: 895px){
@@ -493,7 +521,7 @@ main{
        margin-top: 81px;
        display:block;
        color: $mainb;
-       font-family: "Plumb-Regular";
+       font-family: "Montserrat";
        @media (min-width: 667px) and (max-width: 767px){
           text-align: center;
        }
@@ -544,6 +572,7 @@ main{
              font-size: 21px;
              color: $mainb;
              margin-right: 15px;
+             text-decoration: none;
              @media (min-width: 896px) and (max-width: 1023px){
                 font-size: 18px;
              }
@@ -570,7 +599,6 @@ main{
        }
     }
     .sectionNews__news-content{
-       width: 516px;
        @media (min-width: 768px) and (max-width: 895px){
           width: 450px;
           margin: auto;
@@ -638,7 +666,14 @@ main{
           color: $mainr;
           font-size: 16px;
           float: right;
-          font-family: "Circe-Regular";
+          font-family: "Montserrat";
+          a{
+             text-decoration: none;
+             color: $mainb;
+             @media (min-width: 667px) and (max-width: 767px){
+               font-size: 12px;
+            }
+          }
           @media (min-width: 896px) and (max-width: 1023px){
              float: right;
              margin-right: 50px;
@@ -670,7 +705,7 @@ main{
             color:$mainb;
             font-size: 21px;
             margin-bottom: 0;
-            font-family: "Plumb-Regular";
+            font-family: "Montserrat";
             @media (min-width: 896px) and (max-width: 1023px){
                font-size: 16px;
             }

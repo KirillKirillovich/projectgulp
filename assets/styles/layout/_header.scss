@@ -243,7 +243,7 @@ header {
         margin-right: 10px;
       }
       a{
-        font-family: "Circe-Regular";
+        font-family: "Montserrat";
         color: #FFFFFF;
         font-size: 16px;
         text-decoration: none;
@@ -261,7 +261,7 @@ header {
           font-size: 14px;
         }
         @media (min-width: 414px) and (max-width: 666px){
-          font-size: 14px;
+          font-size: 12px;
         }
         @media (min-width: 320px) and (max-width: 413px){
           font-size: 11px;
@@ -282,7 +282,7 @@ header {
       margin-left: 40px;
     }
     @media (min-width: 896px) and (max-width: 1023px){
-      margin-left: 90px;
+      margin-left: 50px;
     }
     @media (min-width: 768px) and (max-width: 895px){
       display: none;
@@ -310,10 +310,10 @@ header {
       margin-left: 25px;
     }
     @media (min-width: 768px) and (max-width: 895px){
-      margin-left: 60px;
+      margin-left: 20px;
     }
     @media (min-width: 667px) and (max-width: 767px){
-      margin-left: 60px;
+      margin-left: 30px;
     }
     @media (min-width: 414px) and (max-width: 666px){
       margin:auto;
@@ -340,7 +340,10 @@ header {
     }
     .headerLanguage__text{
       display:inline-block;
-      color: white;
+      a{
+        color: white;
+        text-decoration: none;
+      }
     }
   }
   .headerUnderLine{
@@ -377,13 +380,12 @@ header {
     margin-top:184px;
     color: white;
     display: inline-block;
-    font-family: "Circe-Regular";
+    font-family: "Montserrat";
     @media (min-width: 1100px) and (max-width: 1919px){
       margin-left: 20px;
     }
-    @media (min-width: 1024px) and (max-width: 1279px){
-      margin-left: 20px;
-      margin-top: 120px;
+    @media (min-width: 1024px) and (max-width: 1099px){
+      margin:120px 20px 0 20px
     }
     @media (min-width: 896px) and (max-width: 1023px){
       margin-top: 120px;
@@ -410,7 +412,7 @@ header {
     }
     h1{
       font-size: 64px;
-      font-family: "Plumb-Regular";
+      font-family: "Montserrat";
       @media (min-width: 1024px) and (max-width: 1279px){
         font-size: 55px;
       }
@@ -455,6 +457,10 @@ header {
     }
     .headerHeading__about{
       margin-top: 25px;
+      a{
+        color: white;
+        text-decoration: none;
+      }
       @media (min-width: 667px) and (max-width: 767px){
         margin-top: 10px;
       }
@@ -472,6 +478,11 @@ header {
   .headerBlock{
     float: right;
     margin-top: 300px;
+    a{
+      color:white;
+      text-decoration: none;
+      margin-right: 10px;
+    }
     @media (min-width: 1100px) and (max-width: 1919px){
       margin-top: 184px;
       margin-left: 50px;
@@ -484,7 +495,7 @@ header {
     }
     @media (min-width: 768px) and (max-width: 895px){
       margin-top: 120px;
-      margin-left: 50px;
+      margin-left: 30px;
     }
     @media (min-width: 667px) and (max-width: 767px){
       margin:10px 0 0 50px;
@@ -535,7 +546,8 @@ header {
         width: 200px;
       }
       @media (min-width: 896px) and (max-width: 1023px){
-        width: 250px;
+        width: 200px;
+        margin-left: 30px;
       }
       @media (min-width: 768px) and (max-width: 895px){
         width: 200px;
@@ -560,21 +572,21 @@ header {
         padding:0px 0 0 40px;
         font-size: 21px;
         margin-top: 30px;
-        font-family: "Plumb-Regular";
+        font-family: "Montserrat";
         @media (min-width: 1024px) and (max-width: 1279px){
-          font-size: 16px;
+          font-size: 14px;
         }
         @media (min-width: 896px) and (max-width: 1023px){
-          font-size: 16px;
+          font-size: 14px;
         }
         @media (min-width: 768px) and (max-width: 895px){
-          font-size: 16px;
+          font-size: 14px;
         }
         @media (min-width: 667px) and (max-width: 767px){
-          font-size: 16px;
+          font-size: 14px;
         }
         @media (min-width: 414px) and (max-width: 666px){
-          font-size: 16px;
+          font-size: 14px;
           padding: 0;
         }
         @media (min-width: 320px) and (max-width: 413px){
@@ -583,7 +595,7 @@ header {
         }
       }
       .headerBlock__more{
-        font-family: "Circe-Regular";
+        font-family: "Montserrat";
         margin:15px 0 0 40px;
         font-size: 14px;
         @media (min-width: 414px) and (max-width: 479px){
