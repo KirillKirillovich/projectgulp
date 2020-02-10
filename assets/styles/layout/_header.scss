@@ -47,7 +47,8 @@ body{
   }
 }
 header {
-  background-image: url(../images/bgc.png);
+  background-image: url(../images/bgc.jpg);
+  background-size: cover;
   height: 800px;
   width: 100%;
   margin: 0px;
@@ -164,6 +165,9 @@ header {
         width: 100px;
       }
     }
+    img:hover{
+      transform: scale(1.1);
+      }
   }
   .headerNav{
     margin: 35px 0 0 311px;
@@ -195,6 +199,9 @@ header {
       margin: 10px 0 0 0;
       vertical-align: bottom;
       display: inline-block;
+    }
+    @media (max-width: 667px){
+      display: none;
     }
     .headerNav_wrapper{
       position: relative;
@@ -266,6 +273,9 @@ header {
         @media (min-width: 320px) and (max-width: 413px){
           font-size: 11px;
         }
+      }
+      a:hover{
+        opacity: 0.5;
       }
     }
     li:last-child{
@@ -385,30 +395,28 @@ header {
       margin-left: 20px;
     }
     @media (min-width: 1024px) and (max-width: 1099px){
-      margin:120px 20px 0 20px
+      margin-left:10px;
     }
     @media (min-width: 896px) and (max-width: 1023px){
-      margin-top: 120px;
-      margin-left: 20px;
+      margin-left: 10px;
     }
     @media (min-width: 768px) and (max-width: 895px){
-      margin-top: 120px;
-      margin-left:20px;
+      margin-left:10px;
     }
     @media (min-width: 667px) and (max-width: 767px){
-      margin:10px 0 0 0;
       width: 100%;
       text-align: center;
+      margin-top: 20px;
     }
     @media (min-width: 414px) and (max-width: 666px){
-      margin: 10px 0 0 0;
       width: 100%;
       text-align: center;
+      margin-top: 10px;
     }
     @media (min-width: 320px) and (max-width: 413px){
-      margin:10px 0 0 0;
       width: 100%;
       text-align: center;
+      margin-top: 10px;
     }
     h1{
       font-size: 64px;
@@ -474,10 +482,13 @@ header {
         margin-left: 10px;
       }
     }
+    .headerHeading__about:hover{
+        text-decoration: underline;
+    }
   }
   .headerBlock{
     float: right;
-    margin-top: 300px;
+    margin-top: 250px;
     a{
       color:white;
       text-decoration: none;
@@ -513,6 +524,9 @@ header {
       display: flex;
       flex-wrap: wrap;
       width: 580px;
+      @media (min-width: 1024px) and (max-width: 1279px){
+        margin-left: 40px;
+      }
       @media (min-width: 667px) and (max-width: 767px){
         justify-content: space-around;
         width: 100%;
@@ -538,7 +552,7 @@ header {
     li{
       display: inline-block;
       width: 255px;
-      height: 148px;
+      // height: 148px;
       background-color:$mainblue;
       color: white;
       margin: 0 30px 30px 0;
@@ -557,21 +571,39 @@ header {
       }
       @media (min-width: 414px) and (max-width: 666px){
         width: 140px;
-        height: 140px;
+        // height: 140px;
         margin: 0 0 30px 0;
         text-align: center;
       }
       @media (min-width: 320px) and (max-width: 413px){
         width: 120px;
-        height: 120px;
+        // height: 120px;
         margin: 0 0 30px 0;
         text-align: center;
       }
 
+      .headerBlock__wrapper{
+        padding: 40px;
+        @media (min-width: 896px) and (max-width: 1023px){
+          padding:30px;
+        }
+        @media (min-width: 768px) and (max-width: 895px){
+          padding: 20px;
+        }
+        @media (min-width: 667px) and (max-width: 767px){
+          padding: 30px;
+        }
+        @media (min-width: 414px) and (max-width: 666px){
+          padding: 15px;
+        }
+        @media (min-width: 320px) and (max-width: 413px){
+          padding: 15px;
+        }
+      }
       .headerBlock__text{
-        padding:0px 0 0 40px;
+        // padding:0px 0 0 40px;
         font-size: 21px;
-        margin-top: 30px;
+        // margin-top: 30px;
         font-family: "Montserrat";
         @media (min-width: 1024px) and (max-width: 1279px){
           font-size: 14px;
@@ -588,6 +620,9 @@ header {
         @media (min-width: 414px) and (max-width: 666px){
           font-size: 14px;
           padding: 0;
+          a{
+            margin: 0;
+          }
         }
         @media (min-width: 320px) and (max-width: 413px){
           font-size: 14px;
@@ -596,17 +631,128 @@ header {
       }
       .headerBlock__more{
         font-family: "Montserrat";
-        margin:15px 0 0 40px;
+        padding-top: 15px;
         font-size: 14px;
+        a:hover{
+          text-decoration: underline;
+        }
         @media (min-width: 414px) and (max-width: 479px){
-          margin:15px 0 0 0;
+          margin:0;
+          a{
+            margin: 0;
+          }
+          img{
+            display: none;
+          }
         }
         @media (min-width: 320px) and (max-width: 413px){
-          margin:15px 0 0 0;
+          margin:0;
           font-size: 12px;
+          a{
+            margin: 0;
+          }
+          img{
+            display: none;
+          }
         }
       }
     }
   }
+  }
+  .headerBlock li:hover{
+    transform: scale(1.02);
+  }
+
+  /* BURGER */
+
+  .burger{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+
+    @media (min-width: 668px){
+      display: none;
+    }
+  }
+  .burger span, .burger span:before, .burger span:after{
+    width: 100%;
+    position: absolute;
+    height: 10px;
+    background: white;
+    display: block;
+    transition: .3s;
+    border-radius: 5px;
+  }
+  .burger span:before{
+    content: "";
+    height: 4px;
+    top: -10px;
+    transition: top 300ms 300ms, transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  .burger span{
+    top: 20px;
+    height: 4px;
+  }
+  .burger span:after{
+    content: "";
+    height: 4px;
+    bottom: -10px;
+    transition: bottom 300ms 300ms, transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  /*BURGER ANIMATE */
+  
+  .burger span.active:before{
+    content: "";
+    top: 0px;
+    transform: rotate(45deg);
+    transition: top 300ms, transform 300ms 300ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  .burger span.active:after{
+    content: "";
+    bottom: 0;
+    transform: rotate(-45deg);
+    transition: bottom 300ms, transform 300ms 300ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  .burger span.active{
+    background: rgba(255, 255, 255, 0); 
+  }
+
+  /*BURGER DIV*/
+  .menu{
+    width: 100%;
+    height: auto;
+    background: $mainblue;
+    opacity: 0.9;
+    color: #ccc;
+    padding: 10px;
+    position: fixed;
+    left: -669px;
+    transition: left 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    border-bottom: 1px solid white;
+
+    ul{
+      position: relative;
+      text-align: center;
+    }
+
+    li a{
+      font-family: "Montserrat";
+      color: #FFFFFF;
+      font-size: 16px;
+      text-decoration: none;
+    }
+    a:hover{
+      border:2px solid white;
+    }
+    @media (min-width: 668px){
+      display: none;
+    }
+  }
+  .menu.animate{
+    left: 0;
   }
 }

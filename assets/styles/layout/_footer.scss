@@ -123,6 +123,7 @@ footer {
         }
         @media (min-width: 320px) and (max-width: 413px){
           justify-content: space-around;
+          font-size: 16px;
         }
         :first-child{
          margin-bottom: 30px;
@@ -188,7 +189,7 @@ footer {
               font-size: 12px;
             }
             @media (min-width: 320px) and (max-width: 413px){
-              font-size: 12px;
+              font-size: 10px;
             }
           }
          a:hover{
@@ -197,6 +198,9 @@ footer {
          }
          img{
            position: relative;
+           &:hover{
+            transform: scale(1.03);  
+           }
            @media (min-width: 896px) and (max-width: 1023px){
              width: 100px;
            }
@@ -297,6 +301,9 @@ footer {
          img{
            margin-right: 30px;
            margin-bottom: 30px;
+           &:hover{
+            transform: scale(1.1);  
+           }
            @media (min-width: 896px) and (max-width: 1023px){
              margin-right: 15px;
            }

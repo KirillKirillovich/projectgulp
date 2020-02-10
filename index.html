@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="build/css/main.min.css">
     <script src="build/js/main.min.js"></script>
+    <script src="build/js/burger.js" defer></script>
     <meta name="viewport" content="width=device-width, minimum-scale=1.0" />
     <title>Document</title>
 </head>
@@ -29,11 +30,11 @@
                             </nav>
                         </div>
                         <div class="headerSearch">
-                            <img src="build/images/Search.png" alt="searchoico">
+                            <a href="#"><img src="build/images/Search.png" alt="searchoico"></a>
                         </div>
                         <div class="headerLanguage">
                             <div class="headerLanguage__ico">
-                                <img src="build/images/Globe.png" alt="langico">
+                                <a href="#"><img src="build/images/Globe.png" alt="langico"></a>
                             </div>
                             <div class="headerLanguage__text">
                                 <a href="#">English</a>
@@ -42,6 +43,15 @@
                     </div>
                         <div class="headerUnderLine">
                             <span></span>
+                        </div>
+                        <div class="menu">
+                            <ul>
+                                <li><a href="#">О комплексе</a></li>
+                                <li><a href="#">О компании</a></li>
+                                <li><a href="#">Новости</a></li>
+                                <li><a href="#">Медиа-банк</a></li>
+                                <li><a href="#">Контакты</a></li>
+                            </ul>
                         </div>
                         <div class="layout">
                             <div class="headerHeading__wrapper">
@@ -60,25 +70,34 @@
                                 <ul>
                                     <li>
                                         <div class="headerBlock__wrapper">
-                                          <p class="headerBlock__text">Календарь мероприятий</p>
-                                          <p class="headerBlock__more"><a href="#">Подробнее</a><img src="assets/images/Arrow.png" alt="arrowico"></p>
+                                            <p class="headerBlock__text"><a href="#">Календарь мероприятий</p></a>
+                                            <p class="headerBlock__more"><a href="#">Подробнее</a><img src="assets/images/Arrow.png" alt="arrowico"></p>
                                         </div>
                                     </li>
                                     <li>
-                                        <p class="headerBlock__text">Как добраться до Экспофорума</p>
-                                        <p class="headerBlock__more"><a href="#">Подробнее</a><img src="assets/images/Arrow.png" alt="arrowico"></p>
+                                        <div class="headerBlock__wrapper">
+                                            <p class="headerBlock__text"><a href="#">Как добраться до Экспофорума</a></p>
+                                            <p class="headerBlock__more"><a href="#">Подробнее</a><img src="assets/images/Arrow.png" alt="arrowico"></p>
+                                        </div>
                                     </li>
                                     <li>
-                                        <p class="headerBlock__text">Онлайн-заявка на организацию мероприятия </p>
-                                        <p class="headerBlock__more"><a href="#">Подробнее</a><img src="assets/images/Arrow.png" alt="arrowico"></p>
+                                        <div class="headerBlock__wrapper">
+                                            <p class="headerBlock__text"><a href="#">Онлайн-заявка на организацию мероприятия</a></p>
+                                            <p class="headerBlock__more"><a href="#">Подробнее</a><img src="assets/images/Arrow.png" alt="arrowico"></p>
+                                        </div>
                                     </li>
                                     <li>
-                                        <p class="headerBlock__text">План<br> и инфраструктура комплекса</p>
-                                        <p class="headerBlock__more"><a href="#">Подробнее</a><img src="assets/images/Arrow.png" alt="arrowico"></p>
+                                        <div class="headerBlock__wrapper">
+                                            <p class="headerBlock__text"><a href="#">План и инфраструктура комплекса</a></p>
+                                            <p class="headerBlock__more"><a href="#">Подробнее</a><img src="assets/images/Arrow.png" alt="arrowico"></p>
+                                        </div>
                                     </li>
                                 </ul>
                             </div>
                         </div>
+                    </div>
+                    <div class="burger">
+                        <span></span>
                     </div>
                 </header>
                 <main>
@@ -129,37 +148,37 @@
                                     <div class="sectionEvents__Events">
                                         <ul class="sectionEvents__Events-wrapper">
                                             <li>
-                                                <img class="sectionEvents__Events-img" src="assets/images/eventimg.png" alt="eventimg">
+                                                <a href="#"><img class="sectionEvents__Events-img" src="assets/images/Rectangle 8.jpg" alt="eventimg"></a>
                                                 <p class="sectionEvents__Events-date">2 января 2020 г. – 7 января 2020 г.</p>
                                                 <p class="sectionEvents__Events-name"><a href="#">ЭКСПО ЕЛКА</a></p>
                                                 <p class="sectionEvents__Events-description">Парк интерактивных развлечений</p>
                                             </li>
                                             <li>
-                                                <img class="sectionEvents__Events-img" src="assets/images/eventimg2.png" alt="eventimg">
+                                                <a href="#"><img class="sectionEvents__Events-img" src="assets/images/Rectangle 8 (1).jpg" alt="eventimg"></a>
                                                 <p class="sectionEvents__Events-date">5 февраля 2020 г. – 9 февраля 2020 г.</p>
                                                 <p class="sectionEvents__Events-name"><a href="#">Junwex Петербург</a></p>
                                                 <p class="sectionEvents__Events-description">Выставка ювелирных изделий</p>
                                             </li>
                                             <li>
-                                                <img class="sectionEvents__Events-img" src="assets/images/eventimg3.png" alt="eventimg">
+                                                <a href="#"><img class="sectionEvents__Events-img" src="assets/images/Rectangle 8 (2).jpg" alt="eventimg"></a>
                                                 <p class="sectionEvents__Events-date">7 февраля 2020 г. – 9 февраля 2020 г.</p>
                                                 <p class="sectionEvents__Events-name"><a href="#">Невский ларец</a></p>
                                                 <p class="sectionEvents__Events-description">Выставка-ярмарка народных художественных<br> промыслов и ремесел</p>
                                             </li>
                                             <li>
-                                                <img class="sectionEvents__Events-img" src="assets/images/eventimg4.png" alt="eventimg">
+                                                <a href="#"><img class="sectionEvents__Events-img" src="assets/images/Rectangle 8 (3).jpg" alt="eventimg"></a>
                                                 <p class="sectionEvents__Events-date">14 февраля 2020 г. – 23 февраля 2020 г.</p>
                                                 <p class="sectionEvents__Events-name"><a href="#">ПОНАЕХАЛИ!</a></p>
                                                 <p class="sectionEvents__Events-description">Специализированная арт-ярмарка</p>
                                             </li>
                                             <li>
-                                                <img class="sectionEvents__Events-img" src="assets/images/eventimg5.png" alt="eventimg">
+                                                <a href="#"><img class="sectionEvents__Events-img" src="assets/images/Rectangle 8 (4).jpg" alt="eventimg"></a>
                                                 <p class="sectionEvents__Events-date">18 февраля 2020 г. – 21 февраля 2020 г.</p>
                                                 <p class="sectionEvents__Events-name"><a href="#">VET.CAMP</a></p>
                                                 <p class="sectionEvents__Events-description">Конференция для ветеринарных врачей</p>
                                             </li>
                                             <li>
-                                                <img class="sectionEvents__Events-img" src="assets/images/eventimg6.png" alt="eventimg">
+                                                <a href="#"><img class="sectionEvents__Events-img" src="assets/images/Rectangle 8 (5).jpg" alt="eventimg"></a>
                                                 <p class="sectionEvents__Events-date">26 февраля 2020 г. – 28 февраля 2020 г.</p>
                                                 <p class="sectionEvents__Events-name"><a href="#">ExpoHoReCa</a></p>
                                                 <p class="sectionEvents__Events-description">Специализированная выставка</p>
@@ -172,8 +191,8 @@
                                 <div class="layout">
                                     <div class="sectionNews__wrapper">
                                     <div class="sectionNews__photo">
-                                        <img src="assets/images/newsimg.png" alt="newsimg">
-                                        <img src="assets/images/newsimg2.png" alt="newsimg">
+                                        <a href="#"><img src="assets/images/ad-1.jpg" alt="newsimg"></a>
+                                        <a href="#"><img src="assets/images/ad-2.jpg" alt="newsimg"></a>
                                     </div>
                                     <div class="sectionNews__news">
                                         <div class="sectionNews__news-title">
@@ -184,28 +203,28 @@
                                             <ul>
                                                 <li>
                                                     <div class="sectionNews__news-content-img">
-                                                        <img src="assets/images/newscontent.png" alt="newsimg">
+                                                        <a href="#"><img src="assets/images/Rectangle 11.jpg" alt="newsimg"></a>
                                                     </div>
                                                     <div class="sectionNews__news-content-text">
-                                                        <p>4 января 2020 г.</p>
+                                                        <p><a href="#">4 января 2020 г.</a></p>
                                                         <p><a href="#">Как объединилась реальность и<br> виртуальность – LIKEE PARTY</a></p>
                                                     </div>
                                                 </li>
                                                 <li>
                                                     <div class="sectionNews__news-content-img">
-                                                        <img src="assets/images/newscontent2.png" alt="newsimg">
+                                                        <a href="#"><img src="assets/images/Rectangle 12.jpg" alt="newsimg"></a>
                                                     </div>
                                                     <div class="sectionNews__news-content-text">
-                                                        <p>4 января 2020 г.</p>
+                                                        <p><a href="#">4 января 2020 г.</a></p>
                                                         <p><a href="#">Как объединилась реальность и<br> виртуальность – LIKEE PARTY</a></p>
                                                     </div>
                                                 </li>
                                                 <li>
                                                     <div class="sectionNews__news-content-img">
-                                                        <img src="assets/images/newscontent3.png" alt="newsimg">
+                                                        <a href="#"><img src="assets/images/Rectangle 13.jpg" alt="newsimg"></a>
                                                     </div>
                                                     <div class="sectionNews__news-content-text">
-                                                        <p>4 января 2020 г.</p>
+                                                        <p><a href="#">4 января 2020 г.</a></p>
                                                         <p><a href="#">Как объединилась реальность и<br> виртуальность – LIKEE PARTY</a></p>
                                                     </div>
                                                 </li>
@@ -261,8 +280,8 @@
                                         </li>
                                     <li>
                                       <p>Приложение</p>
-                                      <p><a href="#"><img src="assets/images/appstorico.png" alt="appico"></a></p>
-                                      <p><a href="#"><img src="assets/images/googleplayico.png" alt="appico"></a></p>
+                                      <p><a href="#"><img src="assets/images/Frameapp.png" alt="appico"></a></p>
+                                      <p><a href="#"><img src="assets/images/Frame.png" alt="appico"></a></p>
                                     </li>
                                 </ul>
                             </div>

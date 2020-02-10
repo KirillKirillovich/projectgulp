@@ -3,7 +3,6 @@ import { initProfile } from './modules/profile';
 import { initSearch } from './modules/search';
 import { initCommunity } from './modules/community';
 
-
 document.addEventListener('DOMContentLoaded', () => {
   const searchRoot = document.querySelector('.search');
 
