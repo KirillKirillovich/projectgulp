@@ -306,6 +306,13 @@ header {
     @media (min-width: 320px) and (max-width: 413px){
       display: none;
     }
+
+    button{
+      height: 20px;
+      width: 19px;
+      background-color: white;
+      outline: none;
+    }
   }  
   .headerLanguage{
     display: inline-block;
@@ -341,6 +348,7 @@ header {
     .headerLanguage__ico{
       display: inline-block;
       margin-right: 11px;
+      vertical-align: middle;
       @media (min-width: 414px) and (max-width: 666px){
         vertical-align: sub;
       }
@@ -552,7 +560,6 @@ header {
     li{
       display: inline-block;
       width: 255px;
-      // height: 148px;
       background-color:$mainblue;
       color: white;
       margin: 0 30px 30px 0;
@@ -571,19 +578,19 @@ header {
       }
       @media (min-width: 414px) and (max-width: 666px){
         width: 140px;
-        // height: 140px;
         margin: 0 0 30px 0;
         text-align: center;
       }
       @media (min-width: 320px) and (max-width: 413px){
         width: 120px;
-        // height: 120px;
         margin: 0 0 30px 0;
         text-align: center;
       }
 
       .headerBlock__wrapper{
         padding: 40px;
+        word-wrap:break-word;
+        text-align: start;
         @media (min-width: 896px) and (max-width: 1023px){
           padding:30px;
         }
@@ -625,7 +632,7 @@ header {
           }
         }
         @media (min-width: 320px) and (max-width: 413px){
-          font-size: 14px;
+          font-size: 11px;
           padding: 0;
         }
       }
@@ -754,5 +761,30 @@ header {
   }
   .menu.animate{
     left: 0;
+  }
+  .search-input{
+    position: absolute;
+    padding-top: 5px;
+      input{
+      width: 170px;
+      border-radius: 3px;
+      background-color: #f8f8f8;
+      height: 25px;
+      padding: 5px;
+      outline: none;
+      border: none;
+
+      @media (min-width: 896px){
+        width: 150px;
+      }
+    }
+  }
+  #b1{
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
   }
 }

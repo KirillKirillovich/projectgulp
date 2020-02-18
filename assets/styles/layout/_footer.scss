@@ -351,17 +351,14 @@ footer {
       }
       .sectionFooter__social-input{
         display: inline-block;
-        input{
-        padding-left: 5px;
+        padding:15px;
+        vertical-align: top;
         width: 215px;
         height: 40px;
         border: none;
+        outline: none;;
         margin-top:25px;
-        vertical-align: baseline;
         font-family: "Montserrat";
-        @media (min-width: 896px) and (max-width: 1023px){
-          width: 100%;
-        }
         @media (min-width: 768px) and (max-width: 895px){
           width: 350px;
         }
@@ -370,11 +367,12 @@ footer {
         }
         @media (min-width: 414px) and (max-width: 666px){
           width: 140px;
+          font-size: 12px;
+          padding: 5px;
         }
         @media (min-width: 320px) and (max-width: 413px){
           width: 250px;
         }
-      }
          input::placeholder{
             color:#9C9C9C;
             margin-left: 20px;
@@ -383,23 +381,12 @@ footer {
       }
       .sectionFooter__social-button{
         display: inline-block;
-        position: relative;
-        input{
         width: 40px;
         height: 40px;
         border: none;
         background-color: $mainr;
-        vertical-align: middle;
-        margin-left: -4px;
-        margin-bottom: 2px;
-      }
+        margin-top: 25px;
       img{
-        position:absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        margin-right: 0;
         margin:auto;
       }
       }

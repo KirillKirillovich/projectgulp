@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="build/css/main.min.css">
     <script src="build/js/main.min.js"></script>
     <script src="build/js/burger.js" defer></script>
+    <script src="build/js/searchinput.js" defer></script>
     <meta name="viewport" content="width=device-width, minimum-scale=1.0" />
     <title>Document</title>
 </head>
@@ -30,7 +31,12 @@
                             </nav>
                         </div>
                         <div class="headerSearch">
-                            <a href="#"><img src="build/images/Search.png" alt="searchoico"></a>
+                            <button  id="b1" onclick="test()"><img src="assets/images/searchico.svg" alt="searchico" height="200px" width="200px" />
+                            </button>
+                            <!-- <a href="#"><img src="build/images/Search.png" alt="searchoico"></a> -->
+                            <form id="i1" class="search-input" action="" style="display:none">
+                                <input type="text" placeholder="Search..." >
+                            </form>
                         </div>
                         <div class="headerLanguage">
                             <div class="headerLanguage__ico">
@@ -44,7 +50,7 @@
                         <div class="headerUnderLine">
                             <span></span>
                         </div>
-                        <div class="menu">
+                        <div class="menu" id="menudefault">
                             <ul>
                                 <li><a href="#">О комплексе</a></li>
                                 <li><a href="#">О компании</a></li>
@@ -297,13 +303,17 @@
                                     <li>
                                         <p>Подписка на новости</p>
                                         <p>Получайте все самые последние новости о мероприятиях в Экспофоруме.</p>
-                                        <form action="">
+                                        <!-- <form action="">
                                             <div class="sectionFooter__social-input">
                                                 <input  type="text" placeholder="Введите ваш e-mail">
                                             </div>
                                             <div class="sectionFooter__social-button">
                                                 <input  type="button"> 
                                                 <img src="assets/images/mailico.png" alt="mailico">
+                                            </div>
+                                        </form> -->
+                                        <form action="">
+                                                <input class="sectionFooter__social-input" type="text" placeholder="Введите ваш e-mail"><button class="sectionFooter__social-button"><img src="assets/images/mailico.png" alt="mailico"></button>
                                             </div>
                                         </form>
                                     </li>
